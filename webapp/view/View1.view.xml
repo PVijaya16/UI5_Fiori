@@ -6,9 +6,14 @@
     <Page title="== vs === Demo">
         <content>
 
+            <!-- Main Container -->
             <VBox class="sapUiSmallMargin">
-                <!-- Output -->
+
+                <!-- Output Text -->
                 <Text id="txtResult" wrapping="true" />
+
+                <!-- 👇 ADD THIS (for buttons + image) -->
+                <VBox id="rootBox" class="sapUiSmallMarginTop"/>
 
             </VBox>
 
